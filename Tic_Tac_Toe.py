@@ -1,6 +1,6 @@
 
 def DisplayBoard(B):
-    print("\033[H\033[J")
+    print("\033[H\033[J")  #clears the screen every time when displayboard function is called
     print(f"        |          |        ")
     print("˜˜˜˜˜˜˜˜|˜˜˜˜˜˜˜˜˜˜|˜˜˜˜˜˜˜˜")
     print(f"        |          |        \n    {B[7]}   |    {B[8]}     |    {B[9]}   ")
